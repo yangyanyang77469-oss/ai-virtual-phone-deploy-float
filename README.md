@@ -163,7 +163,7 @@ Storage，只存在于本次 Edge Function 内存和本次模型请求中。个�
 - 自己部署、自己使用时，由站点主人配置一次 Resend。
 - 多人共用一个站点时，由站点运营者配置一次；普通用户只在小手机里验证接收邮箱，
   不需要各自注册 Resend。
-- 不配置 Resend 不影响云备份、微信、离线回复或“通知点击运行”，只是邮件模式不可用。
+- 不配置 Resend 不影响云备份、微信、离线回复或“通知点击运行”, 只是邮件模式不可用。
 
 #### 1. 配置 Resend
 
@@ -261,6 +261,4 @@ npm run check:push # 校验个人云部署包
 
 字体、贴纸素材、3D 模型等第三方资源的授权说明见 [NOTICE](./NOTICE)。
 
-## 备注
-
-`NEXT_PUBLIC_*` 变量会打包进浏览器代码、完全公开。不要把 Supabase `service_role`、后台管理密钥、第三方 API 私钥写进任何 `NEXT_PUBLIC_*` 变量。
+## Remarks: 2026-09-21 redeploy triggered by daddy.
